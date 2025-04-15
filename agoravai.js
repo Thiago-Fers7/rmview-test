@@ -51,9 +51,9 @@ app.get("/sso/jwt/login", (req, res) => {
   // 1. Valide o usuário logado
   const user = {
     id: "123456",
-    email: "fyfffxg@gmail.com",
-    firstName: "Luiz",
-    lastName: "Thiago",
+    email: "suporte1@rmview.com",
+    firstName: "Herick",
+    lastName: "Vasconcelos",
   };
 
   // 2. Gere o token
