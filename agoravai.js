@@ -60,7 +60,7 @@ app.get("/sso/jwt/login", (req, res) => {
   const token = gerarJWT(user, nonce);
 
   // 3. Redirecione para o Freshworks
-  const redirectUrl = `https://rmview-org.myfreshworks.com/sp/OIDC/832270645206476893/implicit?state=${state}&id_token=${token}`;
+  const redirectUrl = `https://rmview-org.myfreshworks.com/sp/OIDC/832276755116961659/implicit?state=${state}&id_token=${token}`;
 
   return res.redirect(redirectUrl);
 });
