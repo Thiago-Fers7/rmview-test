@@ -51,9 +51,9 @@ app.get("/sso/jwt/login", (req, res) => {
   // 1. Valide o usuário logado
   const user = {
     id: "123456",
-    email: "messi@awesomecompany.com",
-    firstName: "Leo",
-    lastName: "Messi",
+    email: "fyfffxg@gmail.com",
+    firstName: "Luiz",
+    lastName: "Thiago",
   };
 
   // 2. Gere o token
@@ -64,7 +64,6 @@ app.get("/sso/jwt/login", (req, res) => {
 
   return res.redirect(redirectUrl);
 });
-
 
 app.listen(PORT, () => {
   console.log(`Proxy rodando em http://localhost:${PORT}`);
